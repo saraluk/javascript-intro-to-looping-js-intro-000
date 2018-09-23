@@ -22,7 +22,7 @@ function incrementVariable() {
 
 function doWhileLoop(array){
   do {
-    array = array.length - 1;
+    array = array.length--;
   } while (array.length > 0 && incrementVariable())
   return array
 }
