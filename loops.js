@@ -24,5 +24,6 @@ function doWhileLoop(array){
   do {
     array.push();
   } while (array.length > 0)
+  array = array;
   return array
 }
